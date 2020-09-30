@@ -9,7 +9,9 @@ class vtkQtshow : public QMainWindow
 
 public:
     vtkQtshow(QWidget *parent = Q_NULLPTR);
-
+	void testShow();
+private slots:
+	void on_pushButton_clicked();
 private:
     Ui::vtkQtshowClass ui;
 };
